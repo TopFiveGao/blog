@@ -34,6 +34,10 @@ jobs:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
       # - uses: pnpm/action-setup@v3 # Uncomment this if you're using pnpm
       # - uses: oven-sh/setup-bun@v1 # Uncomment this if you're using Bun
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4 # 安装pnpm并添加到环境变量
+        with:
+          version: 8.12.1 # 指定需要的 pnpm 版本
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
