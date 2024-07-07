@@ -4,6 +4,7 @@ import { set_navbar } from './utils/gen-nav-bar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/blog/',
   title: "自研中心",
   description: "A VitePress Site",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
@@ -14,7 +15,7 @@ export default defineConfig({
     //   { text: 'Vue', link: '/' },
     //   { text: '段子', link: '/joke' }
     // ],
-    nav:set_navbar('docs'),
+    nav: set_navbar('docs'),
     footer: {
       message: '从牛马中来，向牛马中去。',
       copyright: 'Copyright © 2024-present TopFiveGao'
