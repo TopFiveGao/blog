@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "vitepress": "^1.2.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "preinstall": "npx only-allow pnpm"
+  }
+}
