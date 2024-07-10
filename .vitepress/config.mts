@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/blog/',
   title: "自研中心",
   description: "A VitePress Site",
-  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/blog/logo.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
